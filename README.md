@@ -1,2 +1,2 @@
-# EDEC
-Elite Dangerous EDEC desktop companion app
+# EDES
+Elite Dangerous EDES desktop companion app
