@@ -29,7 +29,7 @@
 <body>
   <main>
     <h1>EDES</h1>
-    <p>Wracam do aplikacji. Jeśli nic się nie stanie, upewnij się, że EDES jest uruchomiony i kliknij link poniżej.</p>
+    <p>Wracam do aplikacji. Jeśli karta nie zamknie się sama, możesz wrócić do EDES.</p>
     <p><a id="return-link" href="#">Wróć do EDES</a></p>
   </main>
 
@@ -39,6 +39,7 @@
 
     link.href = localCallback;
     window.location.replace(localCallback);
+    window.setTimeout(() => window.close(), 1500);
   </script>
 </body>
 </html>
